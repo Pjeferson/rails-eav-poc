@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Fact.create([
+  { name: 'Favorite beatle', data_type: 'text', key: 'favorite_beatle' },
+  { name: 'Number of kids', data_type: 'number', key: 'number_of_kids' }
+])
