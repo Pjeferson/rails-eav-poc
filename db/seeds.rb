@@ -11,3 +11,7 @@ Fact.create([
   { name: 'Favorite beatle', data_type: 'text', key: 'favorite_beatle' },
   { name: 'Number of kids', data_type: 'number', key: 'number_of_kids' }
 ])
+
+Customer.create(
+  { name: "John", email: 'john@email.com', job_title: "CTO", company_name: "Company" }
+)
